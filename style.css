@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6FFDE;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+nav{
+    position: fixed;
+}
+.nav-container{
+    background-color: #82b4e7;
+    margin: 10px 90px 0 90px;
+    border-radius: 20px;
+    width: 300px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    gap: 10px;
+}
+.logo > span{
+    color: #FC4F00;
+}
+/* homepage */
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 80px;
+    row-gap: 50px;
+}
+.home{
+    background-image: url(image/canigao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    color: #AEC3D8;
+    margin: 0px 20px 0 20px;
+}
+.text > h1 span{
+    color: #3a8ca7;
+}
+.text > h1{
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.text > p{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-self: center;
+}
+.spots{
+    background-image: url(image/canigao.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    color: #AEC3D8;
+    margin:  0 20px 0 20px;
+}
+/* SPOTS */
+.spots-text{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(128, 126, 126);
+    margin: 10px 90px 0 90px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: #3a8ca7;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 220px 220px;
+    column-gap: 10px;
+    margin:20px 0 0 120px;
+
+}
+.gallery img:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
